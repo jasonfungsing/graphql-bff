@@ -1,0 +1,11 @@
+{
+  "extends": "./node_modules/gts/",
+  "rules": {
+    "semi": ["warn", "never"],
+    "space-before-function-paren": ["warn", {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always"
+    }]
+  }
+}
